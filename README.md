@@ -1,16 +1,25 @@
-# Data Warehouse and Analytics Project
+📊 Data Warehouse & Analytics Project
+Welcome to the Data Warehouse & Analytics Project repository! 🚀
+This project showcases an end-to-end implementation of a modern data warehousing and analytics pipeline — from raw data ingestion to delivering meaningful business insights. Built as a portfolio project, it reflects industry-standard practices in data engineering, data modeling, and analytics.
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+🏗️ Data Architecture Overview
+This project is structured using the Medallion Architecture, following a layered approach to data processing and refinement:
 
----
-## 🏗️ Data Architecture
+🟫 Bronze Layer – Raw Data Ingestion
+Raw, unprocessed data is ingested directly from CSV files.
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+The data is stored in a SQL Server database exactly as received from the source systems.
 
+Purpose: Ensures traceability, auditing, and debugging capability.
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+🟪 Silver Layer – Data Transformation
+Cleansed and standardized data is stored here.
 
----
+Includes data cleaning, type casting, deduplication, and normalization.
+
+Prepares data for reliable analysis and modeling.
+
+🟨 Gold Layer – Business-Ready Data
+Transformed into a Star Schema suitable for reporting.
+
+Serves as the foundation for dashboards, KPIs, and business intelligence use cases.
