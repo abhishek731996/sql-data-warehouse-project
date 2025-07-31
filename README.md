@@ -1,8 +1,9 @@
-📊 Data Warehouse & Analytics Project
+#📊 Data Warehouse & Analytics Project
+
 Welcome to the Data Warehouse & Analytics Project repository! 🚀
 This project showcases an end-to-end implementation of a modern data warehousing and analytics pipeline — from raw data ingestion to delivering meaningful business insights. Built as a portfolio project, it reflects industry-standard practices in data engineering, data modeling, and analytics.
-
-🏗️ Data Architecture Overview
+--
+##🏗️ Data Architecture Overview
 This project is structured using the Medallion Architecture, following a layered approach to data processing and refinement:
 
 🟫 Bronze Layer – Raw Data Ingestion
@@ -23,3 +24,4 @@ Prepares data for reliable analysis and modeling.
 Transformed into a Star Schema suitable for reporting.
 
 Serves as the foundation for dashboards, KPIs, and business intelligence use cases.
+--
